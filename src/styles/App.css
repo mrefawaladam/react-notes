@@ -1,0 +1,92 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
+  #archive {
+    margin-top: 20px;
+  }
+  
+  #archive h2 {
+    margin-bottom: 10px;
+  }
+  
+  #archive button {
+    margin-bottom: 5px;
+  }
+  
+  #archive button:hover {
+    background-color: #ccc;
+  }
+  .catatan-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;  
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .catatan-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .catatan-card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+   
+  .catatan-card .btn-delete {
+    background-color: #ff3333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .catatan-card .btn-delete:hover {
+    background-color: #ff0000;
+  }
+   
+  .catatan-card .btn-arsip {
+    background-color: #3399ff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .catatan-card .btn-arsip:hover {
+    background-color: #0066cc;
+  }
