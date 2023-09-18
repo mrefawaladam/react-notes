@@ -3,6 +3,10 @@ import React from 'react';
 class CatatanList extends React.Component {
   render() {
     const { notes, onDelete, onArsipkan } = this.props;
+    
+    if (notes.length === 0) {
+      return <p>Tidak ada catatan.</p>;
+    }
 
     return (
       <div>
